@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BbY-yg-L5Z">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Color 1-->
+        <scene sceneID="8jy-IT-Txj">
+            <objects>
+                <viewController storyboardIdentifier="Color1ViewController" id="sh6-3B-fUb" customClass="Color1ViewController" customModule="tabBarController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qdO-ed-XAX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="De7-ic-fIM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Color 1" image="star" catalog="system" selectedImage="star" id="MKS-tQ-Xo0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AtR-1H-apv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="978" y="731"/>
+        </scene>
+        <!--Color 2-->
+        <scene sceneID="Mwh-Wq-tLM">
+            <objects>
+                <viewController storyboardIdentifier="Color2ViewController" id="zAT-9V-Ro9" customClass="Color2ViewController" customModule="tabBarController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cku-R3-2k5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="kh1-Hp-cNp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Color 2" image="star" catalog="system" selectedImage="star" id="QhM-Bf-AlR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vBx-Uz-WyF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1665" y="731"/>
+        </scene>
+        <!--Color 3-->
+        <scene sceneID="4H8-yG-mFd">
+            <objects>
+                <viewController storyboardIdentifier="Color3ViewController" id="ZpK-4X-oZr" customClass="Color3ViewController" customModule="tabBarController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kbY-Gv-pUp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2qv-U6-imV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Color 3" image="star" catalog="system" selectedImage="star" id="abm-Hp-BMX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhW-QE-ozW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2323" y="731"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="AoQ-Qc-em4">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="Hly-kx-6Tk" customClass="HomeViewController" customModule="tabBarController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q76-q4-4Q2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EBM-1V-k58">
+                                <rect key="frame" x="10" y="294" width="394" height="120"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="O0s-7j-fAD">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen 1 Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JH0-Z8-VFU">
+                                                <rect key="frame" x="0.0" y="0.0" width="184" height="40"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpW-Bb-oSU">
+                                                <rect key="frame" x="189" y="0.0" width="112" height="40"/>
+                                                <state key="normal" title="Choose Color"/>
+                                                <connections>
+                                                    <action selector="chooseColor1:" destination="Hly-kx-6Tk" eventType="touchUpInside" id="1Y7-Qz-4eH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwJ-eM-FfB">
+                                                <rect key="frame" x="306" y="0.0" width="88" height="40"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <state key="normal" title="Set Color"/>
+                                                <connections>
+                                                    <action selector="setScreenColor:" destination="Hly-kx-6Tk" eventType="touchUpInside" id="uTi-oA-hE2"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="HV7-uK-f9s"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ljd-cg-vpv">
+                                        <rect key="frame" x="0.0" y="40" width="394" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen 2 Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8m-lb-gAJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="186" height="40"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rte-pF-VZ4">
+                                                <rect key="frame" x="191" y="0.0" width="111" height="40"/>
+                                                <state key="normal" title="Choose Color"/>
+                                                <connections>
+                                                    <action selector="chooseColor1:" destination="Hly-kx-6Tk" eventType="touchUpInside" id="8O4-Zc-E1B"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nci-e1-YeL">
+                                                <rect key="frame" x="307" y="0.0" width="87" height="40"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <state key="normal" title="Set Color"/>
+                                                <connections>
+                                                    <action selector="setScreenColor:" destination="Hly-kx-6Tk" eventType="touchUpInside" id="E9l-Wv-8zb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="iLX-FG-wVJ"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qAy-AC-JWd">
+                                        <rect key="frame" x="0.0" y="80" width="394" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen 3 Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUA-US-zvM">
+                                                <rect key="frame" x="0.0" y="0.0" width="186.5" height="40"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r1w-Mt-DL3">
+                                                <rect key="frame" x="191.5" y="0.0" width="111" height="40"/>
+                                                <state key="normal" title="Choose Color"/>
+                                                <connections>
+                                                    <action selector="chooseColor1:" destination="Hly-kx-6Tk" eventType="touchUpInside" id="7EP-fb-fIf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhA-hP-iFc">
+                                                <rect key="frame" x="307.5" y="0.0" width="86.5" height="40"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <state key="normal" title="Set Color"/>
+                                                <connections>
+                                                    <action selector="setScreenColor:" destination="Hly-kx-6Tk" eventType="touchUpInside" id="7Qf-QV-jvC"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="pq3-FT-R1i"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qbb-ER-Df4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qbb-ER-Df4" firstAttribute="trailing" secondItem="EBM-1V-k58" secondAttribute="trailing" constant="10" id="AOI-LX-VvX"/>
+                            <constraint firstItem="EBM-1V-k58" firstAttribute="top" secondItem="qbb-ER-Df4" secondAttribute="top" constant="250" id="eiw-hU-hbi"/>
+                            <constraint firstItem="EBM-1V-k58" firstAttribute="leading" secondItem="qbb-ER-Df4" secondAttribute="leading" constant="10" id="gyu-gW-aRC"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" selectedImage="homekit" id="hjP-tc-cR9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M2O-x2-ykf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="263.768115942029" y="730.58035714285711"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zbF-uy-uj9">
+            <objects>
+                <tabBarController id="BbY-yg-L5Z" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="Lo3-Ca-qbG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" systemColor="systemYellowColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Hly-kx-6Tk" kind="relationship" relationship="viewControllers" id="2bC-Rg-BXT"/>
+                        <segue destination="sh6-3B-fUb" kind="relationship" relationship="viewControllers" id="EcE-wk-mPB"/>
+                        <segue destination="zAT-9V-Ro9" kind="relationship" relationship="viewControllers" id="dOX-JP-VyA"/>
+                        <segue destination="ZpK-4X-oZr" kind="relationship" relationship="viewControllers" id="sQP-JO-hJL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9U9-wp-CDp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1184" y="-8"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="star" catalog="system" width="128" height="116"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
